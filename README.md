@@ -161,10 +161,10 @@ Cada archivo en `src/bases/` contiene ejemplos específicos. Puedes:
 ```
 ### 07. Destructuring de Objetos (`07-obj-destructuring.ts`)
 ```
-- Extracting properties from objects
-- Renaming variables
-- Default values in destructuring
-- Nested object destructuring
+- Extracción de propiedades de objetos
+- Renombrado de variables en destructuring
+- Valores por defecto en destructuring
+- Destructuring de objetos anidados
 ```
 ## ⚙ Funcionalidades
 
