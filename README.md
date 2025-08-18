@@ -236,8 +236,8 @@ Si este proyecto te ha sido útil, considera:
 - 🤝 Contribuir con nuevos ejemplos
 
 ---
-
+<div align="center">
 **Desarrollado con ❤️ para la comunidad TypeScript**
+</div>
 
 > "La base sólida es el fundamento de todo gran edificio" - Este proyecto es tu base para dominar TypeScript
-```
