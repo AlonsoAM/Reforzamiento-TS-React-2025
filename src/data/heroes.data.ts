@@ -14,7 +14,7 @@
  * 
  * @interface Hero
  */
-interface Hero {
+export interface Hero {
   /** Identificador único del héroe */
   id: number;
   /** Nombre del héroe */
