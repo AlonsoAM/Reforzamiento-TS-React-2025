@@ -35,7 +35,7 @@ export interface Hero {
  * @enum {string}
  */
 // @ts-ignore
-enum Owner {
+export enum Owner {
   /** DC Comics */
   DC = 'DC',
   /** Marvel Comics */
