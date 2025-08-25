@@ -39,7 +39,14 @@ Este proyecto es una colección práctica de ejemplos y ejercicios que cubren lo
 - ✅ Practicar con interfaces y objetos complejos
 - ✅ Implementar funciones tipadas y arrow functions
 - ✅ Manipular arrays y objetos de forma segura
-- ✅ Preparar bases sólidas para React/Angular
+- ✅ Dominar destructuring de objetos y arrays
+- ✅ Gestionar módulos con import/export
+- ✅ Manejar programación asíncrona con Promises
+- ✅ Consumir APIs REST con Fetch API
+- ✅ Implementar async/await para código asíncrono limpio
+- ✅ Manejar respuestas complejas de APIs externas
+- ✅ Manipular el DOM con TypeScript
+- ✅ Preparar bases sólidas para React/Angular/Vue
 
 ## 🛠 Tecnologías
 
@@ -62,12 +69,22 @@ Este proyecto es una colección práctica de ejemplos y ejercicios que cubren lo
 │   │   ├── 04-interfaces.ts            # Interfaces y contratos
 │   │   ├── 05-arrays.ts                # Manipulación de arrays
 │   │   ├── 06-functions.ts             # Funciones y arrow functions
-│   │   └── 07-obj-destructuring.ts     # Destructuring
+│   │   ├── 07-obj-destructuring.ts     # Destructuring object
+│   │   ├── 08-array-destructuring.ts   # Destructuring array
+│   │   ├── 09-tarea-destructuring.ts   # Destructuring y useState
+│   │   ├── 10-import-export.ts         # Importar y Exportar 
+│   │   ├── 11-promises.ts              # Promesas
+│   │   ├── 12-fetch-api.ts             # Fetch API
+│   │   └── 13-async-await.ts            # Async - Await
+│   ├── data/                           # Módulos de datos
+│   │   ├── heores.data.ts              # Data para probar import y export
+│   │   └── heores.data.ts              # Interfaces de la respuesta del API en formato JSON
 │   ├── main.ts                         # Punto de entrada
 │   ├── style.css                       # Estilos globales
 │   └── vite-env.d.ts                   # Tipos de Vite
 ├── public/                             # Archivos estáticos
 ├── index.html                          # Template HTML
+├── LICENSE                             # Archivo de licencia MIT
 ├── package.json                        # Dependencias y scripts
 ├── tsconfig.json                       # Configuración TypeScript
 └── README.md                           # Este archivo
@@ -166,6 +183,73 @@ Cada archivo en `src/bases/` contiene ejemplos específicos. Puedes:
 - Valores por defecto en destructuring
 - Destructuring de objetos anidados
 ```
+### 08. Destructuring de Arrays (`08-arrays-destructuring.ts`) 
+```
+- Técnicas avanzadas de desestructuración de arrays
+- Omisión de elementos usando comas vacías
+- Trabajo con tuplas constantes y tipos literales
+```
+
+### 09. Simulación de Hooks - useState (`09-tarea-destructuring.ts`)
+```
+- Implementación del patrón useState de React en TypeScript
+- Preparación fundamental para el desarrollo con React
+- Manejo de tuplas y funciones setter
+```
+
+### 10. Import/Export de Módulos (`10-import-export.ts`)
+```
+- Gestión completa de módulos en TypeScript
+- Importación de tipos y datos
+- Funciones de búsqueda y filtrado con tipos opcionales
+```
+
+### 11. Promises y Programación Asíncrona (`11-promises.ts`)
+```
+- Manejo completo de Promises
+- Preparación para async/await y APIs
+- Simulación de operaciones asíncronas
+```
+
+### 12. Fetch API y Consumo de REST APIs (`12-fetch-api.ts`)
+```
+- Uso de la Fetch API nativa para peticiones HTTP
+- Consumo de servicios REST externos (API de Giphy)
+- Manejo de respuestas JSON complejas
+- Manipulación del DOM con elementos dinámicos
+- Tipado fuerte de respuestas de APIs
+- Manejo de errores en peticiones asíncronas
+- Destructuring de objetos anidados complejos
+```
+
+### 13. Async/Await - Sintaxis Moderna (`13-async-await.ts`)
+```
+- Sintaxis moderna para programación asíncrona
+- Simplificación de código con async/await
+- Alternativa limpia a Promises tradicionales
+- Type assertions con 'as' keyword
+- Funciones que retornan Promise implícitamente
+- Mejores prácticas con async/await
+- Preparación para desarrollo con frameworks modernos
+```
+### 📊 Datos de Prueba
+
+#### Héroes (`heroes.data.ts`)
+```
+- Archivo de datos estructurados con héroes de cómics
+- Interfaces, enums y buenas prácticas de modelado
+- Datos para ejemplos de import/export y filtrado
+```
+
+#### API Giphy (`giphy.response.ts`)
+```
+- Interfaces completas para respuestas de API Giphy
+- Tipado de objetos JSON complejos y anidados
+- Ejemplo de modelado de datos de APIs reales
+- Tipos para diferentes formatos de imágenes
+```
+
+
 ## ⚙ Funcionalidades
 
 - 📖 **Documentación Detallada** - Cada función y concepto está completamente documentado
@@ -173,6 +257,15 @@ Cada archivo en `src/bases/` contiene ejemplos específicos. Puedes:
 - 🎯 **Tipado Estricto** - Configuración TypeScript optimizada para aprendizaje
 - 🔥 **Hot Reload** - Desarrollo ágil con Vite
 - 📊 **Salida de Consola** - Visualización de resultados en tiempo real
+- 🧩 **Destructuring Avanzado** - Técnicas modernas de extracción de datos
+- 📦 **Gestión de Módulos** - Import/export y organización de código
+- ⚡ **Programación Asíncrona** - Promises y manejo de operaciones asíncronas
+- 🌐 **Consumo de APIs** - Integración con servicios REST externos (Giphy API)
+- 🚀 **Async/Await** - Sintaxis moderna para código asíncrono limpio
+- 🎨 **Manipulación DOM** - Creación dinámica de elementos HTML
+- 🎭 **Datos de Prueba** - Múltiples datasets para ejemplos diversos
+- 📋 **Tipado de APIs** - Interfaces complejas para respuestas reales
+- 🔗 **Integración Web** - Preparación para desarrollo full-stack
 
 ## ⚙ Configuración
 
