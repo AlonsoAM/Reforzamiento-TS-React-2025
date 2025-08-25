@@ -39,6 +39,9 @@ Este proyecto es una colección práctica de ejemplos y ejercicios que cubren lo
 - ✅ Practicar con interfaces y objetos complejos
 - ✅ Implementar funciones tipadas y arrow functions
 - ✅ Manipular arrays y objetos de forma segura
+- ✅ Dominar destructuring de objetos y arrays
+- ✅ Gestionar módulos con import/export
+- ✅ Manejar programación asíncrona con Promises
 - ✅ Preparar bases sólidas para React/Angular
 
 ## 🛠 Tecnologías
@@ -62,7 +65,13 @@ Este proyecto es una colección práctica de ejemplos y ejercicios que cubren lo
 │   │   ├── 04-interfaces.ts            # Interfaces y contratos
 │   │   ├── 05-arrays.ts                # Manipulación de arrays
 │   │   ├── 06-functions.ts             # Funciones y arrow functions
-│   │   └── 07-obj-destructuring.ts     # Destructuring
+│   │   ├── 07-obj-destructuring.ts     # Destructuring object
+│   │   ├── 08-array-destructuring.ts   # Destructuring array
+│   │   ├── 09-tarea-destructuring.ts   # Destructuring y useState
+│   │   ├── 10-import-export.ts         # Importar y Exportar 
+│   │   └── 11-promises.ts              # Promesas
+│   ├── data/                           # Módulos de datos
+│   │   └── heores.data.ts              # Data para probar import y export
 │   ├── main.ts                         # Punto de entrada
 │   ├── style.css                       # Estilos globales
 │   └── vite-env.d.ts                   # Tipos de Vite
@@ -166,6 +175,41 @@ Cada archivo en `src/bases/` contiene ejemplos específicos. Puedes:
 - Valores por defecto en destructuring
 - Destructuring de objetos anidados
 ```
+### 08. Destructuring de Arrays (`08-arrays-destructuring.ts`) 
+```
+- Técnicas avanzadas de desestructuración de arrays
+- Omisión de elementos usando comas vacías
+- Trabajo con tuplas constantes y tipos literales
+```
+
+### 09. Simulación de Hooks - useState (`09-tarea-destructuring.ts`)
+```
+- Implementación del patrón useState de React en TypeScript
+- Preparación fundamental para el desarrollo con React
+- Manejo de tuplas y funciones setter
+```
+
+### 10. Import/Export de Módulos (`10-import-export.ts`)
+```
+- Gestión completa de módulos en TypeScript
+- Importación de tipos y datos
+- Funciones de búsqueda y filtrado con tipos opcionales
+```
+
+### 11. Promises y Programación Asíncrona (`11-promises.ts`)
+```
+- Manejo completo de Promises
+- Preparación para async/await y APIs
+- Simulación de operaciones asíncronas
+```
+
+### 📊 Datos de Prueba (heroes.data.ts) (`heroes.data.ts`)
+```
+- Archivo de datos estructurados con héroes de cómics
+- Interfaces, enums y buenas prácticas de modelado
+```
+
+
 ## ⚙ Funcionalidades
 
 - 📖 **Documentación Detallada** - Cada función y concepto está completamente documentado
@@ -173,6 +217,10 @@ Cada archivo en `src/bases/` contiene ejemplos específicos. Puedes:
 - 🎯 **Tipado Estricto** - Configuración TypeScript optimizada para aprendizaje
 - 🔥 **Hot Reload** - Desarrollo ágil con Vite
 - 📊 **Salida de Consola** - Visualización de resultados en tiempo real
+- 🧩 **Destructuring Avanzado** - Técnicas modernas de extracción de datos
+- 📦 **Gestión de Módulos** - Import/export y organización de código
+- ⚡  **Programación Asíncrona** - Promises y manejo de operaciones asíncronas
+- 🎭 **Datos de Prueba** - Archivo de héroes para ejemplos prácticos
 
 ## ⚙ Configuración
 
