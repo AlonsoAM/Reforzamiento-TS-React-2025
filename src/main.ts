@@ -8,8 +8,8 @@ import './style.css'
 // import './bases/07-obj-destructuring'
 // import './bases/08-array-destructuring'
 // import './bases/09-tarea-destructuring'
-
-import './bases/10-import-export'
+// import './bases/10-import-export'
+import './bases/11-promises'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
